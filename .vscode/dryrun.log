@@ -1,0 +1,6 @@
+make -j20 --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/brrodrig/Dev/Z3GatewayCpc_GPCombo'
+make: Leaving directory `/Users/brrodrig/Dev/Z3GatewayCpc_GPCombo'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

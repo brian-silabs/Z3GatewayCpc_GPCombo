@@ -606,7 +606,9 @@ void sli_zigbee_af_gpep_incoming_message(
       // The length of the GPD command payload.
       uint8_t gpdCommandPayloadLength,
       // The GPD command payload.
-      uint8_t *gpdCommandPayload)
+      uint8_t *gpdCommandPayload,
+      // Rx packet information
+      sl_zigbee_rx_packet_info_t *packetInfo)
 ;
 
 // Rtos Idle
@@ -614,10 +616,6 @@ void sli_zigbee_af_gpep_incoming_message(
 void sli_zigbee_af_rtos_idle(
       // Return: Idle time duration
       uint32_t *idleTimeMs)
-;
-
-// Rtos Stack Wakeup Isr
-void sli_zigbee_common_wakeup_isr(void)
 ;
 
 // Radio Needs Calibrating

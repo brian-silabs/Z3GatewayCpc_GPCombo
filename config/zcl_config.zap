@@ -1,6 +1,6 @@
 {
   "fileFormat": 2,
-  "featureLevel": 103,
+  "featureLevel": 106,
   "creator": "zap",
   "keyValuePairs": [
     {
@@ -41,14 +41,16 @@
         "code": 65535,
         "profileId": 65535,
         "label": "Custom ZCL Device Type",
-        "name": "Custom ZCL Device Type"
+        "name": "Custom ZCL Device Type",
+        "deviceTypeOrder": 0
       },
       "deviceTypes": [
         {
           "code": 65535,
           "profileId": 65535,
           "label": "Custom ZCL Device Type",
-          "name": "Custom ZCL Device Type"
+          "name": "Custom ZCL Device Type",
+          "deviceTypeOrder": 0
         }
       ],
       "deviceVersions": [

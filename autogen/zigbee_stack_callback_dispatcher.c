@@ -885,7 +885,9 @@ void sli_zigbee_af_gpep_incoming_message(
       // The length of the GPD command payload.
       uint8_t gpdCommandPayloadLength,
       // The GPD command payload.
-      uint8_t *gpdCommandPayload)
+      uint8_t *gpdCommandPayload,
+      // Rx packet information
+      sl_zigbee_rx_packet_info_t *packetInfo)
 {
 (void)status;
 (void)gpdLink;
@@ -901,6 +903,7 @@ void sli_zigbee_af_gpep_incoming_message(
 (void)proxyTableIndex;
 (void)gpdCommandPayloadLength;
 (void)gpdCommandPayload;
+(void)packetInfo;
 
 }
 
@@ -913,14 +916,6 @@ void sli_zigbee_af_rtos_idle(
       uint32_t *idleTimeMs)
 {
 (void)idleTimeMs;
-
-}
-
-
-
-// Rtos Stack Wakeup Isr
-void sli_zigbee_common_wakeup_isr(void)
-{
 
 }
 

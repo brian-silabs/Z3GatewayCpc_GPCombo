@@ -5,6 +5,7 @@
 #include "sl_cli_instances.h"
 #include "sl_iostream_init_instances.h"
 #include "sl_cli_threaded_host.h"
+#include "sl_iostream_handles.h"
 
 void sl_platform_init(void)
 {
@@ -51,5 +52,6 @@ void sl_internal_app_process_action(void)
 void sl_iostream_init_instances(void)
 {
   sl_iostream_stdio_init();
+  sl_iostream_set_console_instance();
 }
 

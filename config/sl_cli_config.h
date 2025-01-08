@@ -68,7 +68,7 @@
 // <s SL_CLI_PROMPT_STRING> New command prompt
 // <i> Default: "> "
 // <i> Define the command prompt indicating that a new command may be written.
-#define SL_CLI_PROMPT_STRING               "Z3GatewayCpc>"
+#define SL_CLI_PROMPT_STRING               "zigbee_z3_gateway_cpc>"
 
 // <s SL_CLI_EOL_STRING> End Of Line
 // <i> Default: "\n"

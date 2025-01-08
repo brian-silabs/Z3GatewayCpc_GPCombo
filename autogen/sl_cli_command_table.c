@@ -169,10 +169,10 @@ void getSetMfgToken(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_counters_print_command(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_counters_print_counters_type_command(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_counters_simple_print_command(sl_cli_command_arg_t *arguments);
-void sl_zigbee_af_counters_clear(sl_cli_command_arg_t *arguments);
+void sl_zigbee_af_counters_clear_command(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_counters_print_thresholds_command(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_counters_set_threshold_command(sl_cli_command_arg_t *arguments);
-void sl_zigbee_af_counters_reset_thresholds(sl_cli_command_arg_t *arguments);
+void sl_zigbee_af_counters_reset_thresholds_command(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_counters_send_request_command(sl_cli_command_arg_t *arguments);
 void sli_zigbee_debug_print_enable_stack_type_command(sl_cli_command_arg_t *arguments);
 void sli_zigbee_debug_print_enable_core_type_command(sl_cli_command_arg_t *arguments);
@@ -188,7 +188,7 @@ void sl_zigbee_af_green_power_client_add_groupcast_sink(sl_cli_command_arg_t *ar
 void sl_zigbee_af_green_power_client_remove_proxy_table_entry(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_green_power_client_add_sink(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_green_power_client_print_proxy_table(sl_cli_command_arg_t *arguments);
-void sl_zigbee_af_green_power_client_clear_proxy_table(sl_cli_command_arg_t *arguments);
+void sl_zigbee_af_green_power_client_clear_proxy_table_command(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_green_power_client_duplicate_filtering_test(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_green_power_client_set_key(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_green_power_server_commissioning_mode(sl_cli_command_arg_t *arguments);
@@ -227,8 +227,10 @@ void sli_zigbee_af_mfglib_sleep_command(sl_cli_command_arg_t *arguments);
 void sli_zigbee_af_mfglib_program_eui_command(sl_cli_command_arg_t *arguments);
 void sli_zigbee_af_mfglib_enable_mfglib(sl_cli_command_arg_t *arguments);
 void sli_zigbee_af_mfglib_set_options(sl_cli_command_arg_t *arguments);
+void sli_zigbee_af_mfglib_set_ctune_command(sl_cli_command_arg_t *arguments);
+void sli_zigbee_af_mfglib_get_ctune_command(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_network_creator_start_command(sl_cli_command_arg_t *arguments);
-void sl_zigbee_af_network_creator_stop(sl_cli_command_arg_t *arguments);
+void sl_zigbee_af_network_creator_stop_command(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_network_creator_form_command(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_network_creator_channel_mask_command(sl_cli_command_arg_t *arguments);
 void sl_zigbee_af_network_creator_channel_mask_command(sl_cli_command_arg_t *arguments);
@@ -397,7 +399,7 @@ void zdoAddClusterCommand(sl_cli_command_arg_t *arguments);
 void zdoClearClusterCommand(sl_cli_command_arg_t *arguments);
 void zdoAddClusterCommand(sl_cli_command_arg_t *arguments);
 void zdoClearClusterCommand(sl_cli_command_arg_t *arguments);
-void sl_zigbee_af_print_attribute_table(sl_cli_command_arg_t *arguments);
+void printAttributeTable(sl_cli_command_arg_t *arguments);
 void printTimeCommand(sl_cli_command_arg_t *arguments);
 void mfgappTokenDump(sl_cli_command_arg_t *arguments);
 void changeNwkKeyCommand(sl_cli_command_arg_t *arguments);
@@ -691,7 +693,7 @@ static const sl_cli_command_info_t cli_cmd_counters_simple_hyphen_print = \
                  {SL_CLI_ARG_END, });
 
 static const sl_cli_command_info_t cli_cmd_counters_clear = \
-  SL_CLI_COMMAND(sl_zigbee_af_counters_clear,
+  SL_CLI_COMMAND(sl_zigbee_af_counters_clear_command,
                  "Clears all counter values.",
                   "",
                  {SL_CLI_ARG_END, });
@@ -709,7 +711,7 @@ static const sl_cli_command_info_t cli_cmd_counters_set_hyphen_threshold = \
                  {SL_CLI_ARG_UINT8, SL_CLI_ARG_UINT16, SL_CLI_ARG_END, });
 
 static const sl_cli_command_info_t cli_cmd_counters_reset_hyphen_thresholds = \
-  SL_CLI_COMMAND(sl_zigbee_af_counters_reset_thresholds,
+  SL_CLI_COMMAND(sl_zigbee_af_counters_reset_thresholds_command,
                  "Resets all thresholds values to 0xFFFF.",
                   "",
                  {SL_CLI_ARG_END, });
@@ -805,7 +807,7 @@ static const sl_cli_command_info_t cli_cmd_green_hyphen_power_hyphen_client_prin
                  {SL_CLI_ARG_END, });
 
 static const sl_cli_command_info_t cli_cmd_green_hyphen_power_hyphen_client_clear_hyphen_proxy_hyphen_table = \
-  SL_CLI_COMMAND(sl_zigbee_af_green_power_client_clear_proxy_table,
+  SL_CLI_COMMAND(sl_zigbee_af_green_power_client_clear_proxy_table_command,
                  "Clears the proxy table.",
                   "",
                  {SL_CLI_ARG_END, });
@@ -1038,6 +1040,18 @@ static const sl_cli_command_info_t cli_cmd_mfglib_set_hyphen_options = \
                   "The options bitmask (0 = normal transmit, 1 = CSMA transmit)." SL_CLI_UNIT_SEPARATOR,
                  {SL_CLI_ARG_UINT8, SL_CLI_ARG_END, });
 
+static const sl_cli_command_info_t cli_cmd_ctune_set = \
+  SL_CLI_COMMAND(sli_zigbee_af_mfglib_set_ctune_command,
+                 "Sets ctune via the manufacturing library.",
+                  "The ctune value is between 0x0000 - 0x00FF." SL_CLI_UNIT_SEPARATOR,
+                 {SL_CLI_ARG_UINT16, SL_CLI_ARG_END, });
+
+static const sl_cli_command_info_t cli_cmd_ctune_get = \
+  SL_CLI_COMMAND(sli_zigbee_af_mfglib_get_ctune_command,
+                 "Gets ctune via the manufacturing library.",
+                  "",
+                 {SL_CLI_ARG_END, });
+
 static const sl_cli_command_info_t cli_cmd_network_hyphen_creator_start = \
   SL_CLI_COMMAND(sl_zigbee_af_network_creator_start_command,
                  "Starts the network formation process.",
@@ -1045,7 +1059,7 @@ static const sl_cli_command_info_t cli_cmd_network_hyphen_creator_start = \
                  {SL_CLI_ARG_INT8, SL_CLI_ARG_END, });
 
 static const sl_cli_command_info_t cli_cmd_network_hyphen_creator_stop = \
-  SL_CLI_COMMAND(sl_zigbee_af_network_creator_stop,
+  SL_CLI_COMMAND(sl_zigbee_af_network_creator_stop_command,
                  "Stops the network formation process.",
                   "",
                  {SL_CLI_ARG_END, });
@@ -2059,7 +2073,7 @@ static const sl_cli_command_info_t cli_cmd_in_hyphen_cl_hyphen_list_clear = \
                  {SL_CLI_ARG_END, });
 
 static const sl_cli_command_info_t cli_cmd_print_attr = \
-  SL_CLI_COMMAND(sl_zigbee_af_print_attribute_table,
+  SL_CLI_COMMAND(printAttributeTable,
                  "Prints attribute.",
                   "",
                  {SL_CLI_ARG_END, });
@@ -2308,6 +2322,14 @@ static const sl_cli_command_entry_t send_group_table[] = {
 static const sl_cli_command_info_t cli_cmd_grp_send = \
   SL_CLI_COMMAND_GROUP(send_group_table, "send related commands");
 
+static const sl_cli_command_entry_t ctune_group_table[] = {
+  { "set", &cli_cmd_ctune_set, false },
+  { "get", &cli_cmd_ctune_get, false },
+  { NULL, NULL, false },
+};
+static const sl_cli_command_info_t cli_cmd_grp_ctune = \
+  SL_CLI_COMMAND_GROUP(ctune_group_table, "ctune related commands");
+
 static const sl_cli_command_entry_t mfglib_group_table[] = {
   { "start", &cli_cmd_mfglib_start, false },
   { "stop", &cli_cmd_mfglib_stop, false },
@@ -2321,6 +2343,7 @@ static const sl_cli_command_entry_t mfglib_group_table[] = {
   { "tone", &cli_cmd_grp_tone, false },
   { "stream", &cli_cmd_grp_stream, false },
   { "send", &cli_cmd_grp_send, false },
+  { "ctune", &cli_cmd_grp_ctune, false },
   { NULL, NULL, false },
 };
 static const sl_cli_command_info_t cli_cmd_grp_mfglib = \

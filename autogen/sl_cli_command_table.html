@@ -1660,7 +1660,7 @@ Example syntax (.slcc or .slcp) for populating this file:
     <div class="command-header-bar"></div>
     <div class="command-header">
       <span class="command-name"> counters clear</span>
-      <span class="command-handler">sl_zigbee_af_counters_clear</span>
+      <span class="command-handler">sl_zigbee_af_counters_clear_command</span>
     </div>
     <div class="command-info">
       <div class="help">Clears all counter values.</div>
@@ -1719,7 +1719,7 @@ Example syntax (.slcc or .slcp) for populating this file:
     <div class="command-header-bar"></div>
     <div class="command-header">
       <span class="command-name"> counters reset-thresholds</span>
-      <span class="command-handler">sl_zigbee_af_counters_reset_thresholds</span>
+      <span class="command-handler">sl_zigbee_af_counters_reset_thresholds_command</span>
     </div>
     <div class="command-info">
       <div class="help">Resets all thresholds values to 0xFFFF.</div>
@@ -2027,7 +2027,7 @@ Example syntax (.slcc or .slcp) for populating this file:
     <div class="command-header-bar"></div>
     <div class="command-header">
       <span class="command-name"> green-power-client clear-proxy-table</span>
-      <span class="command-handler">sl_zigbee_af_green_power_client_clear_proxy_table</span>
+      <span class="command-handler">sl_zigbee_af_green_power_client_clear_proxy_table_command</span>
     </div>
     <div class="command-info">
       <div class="help">Clears the proxy table.</div>
@@ -3038,6 +3038,57 @@ Example syntax (.slcc or .slcp) for populating this file:
   </div>
     </div>
   </div>
+</div>
+<div class="group">
+  <div class="group-header">
+    <h4 class="group-name"> ctune</h4>
+  </div>
+  <div class="group-info">
+    <span class="help">ctune related commands</span>
+    
+    <div class="command-list">
+    
+    
+  
+  <div class="command">
+    <div class="command-header-bar"></div>
+    <div class="command-header">
+      <span class="command-name"> ctune set</span>
+        <span class="command-argument">u16</span>
+      <span class="command-handler">sli_zigbee_af_mfglib_set_ctune_command</span>
+    </div>
+    <div class="command-info">
+      <div class="help">Sets ctune via the manufacturing library.</div>
+      
+      
+      <div class="argument-list">
+      <div class="arguments-title">Arguments</div>
+      <ul>
+        <li>
+        <span class="argument-name">u16</span>The ctune value is between 0x0000 - 0x00FF.
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+    
+    
+  
+  <div class="command">
+    <div class="command-header-bar"></div>
+    <div class="command-header">
+      <span class="command-name"> ctune get</span>
+      <span class="command-handler">sli_zigbee_af_mfglib_get_ctune_command</span>
+    </div>
+    <div class="command-info">
+      <div class="help">Gets ctune via the manufacturing library.</div>
+      
+      
+    </div>
+  </div>
+    </div>
+  </div>
 </div></div>
   </div>
 </div>
@@ -3081,7 +3132,7 @@ Example syntax (.slcc or .slcp) for populating this file:
     <div class="command-header-bar"></div>
     <div class="command-header">
       <span class="command-name"> network-creator stop</span>
-      <span class="command-handler">sl_zigbee_af_network_creator_stop</span>
+      <span class="command-handler">sl_zigbee_af_network_creator_stop_command</span>
     </div>
     <div class="command-info">
       <div class="help">Stops the network formation process.</div>
@@ -7434,7 +7485,7 @@ Example syntax (.slcc or .slcp) for populating this file:
     <div class="command-header-bar"></div>
     <div class="command-header">
       <span class="command-name"> print attr</span>
-      <span class="command-handler">sl_zigbee_af_print_attribute_table</span>
+      <span class="command-handler">printAttributeTable</span>
     </div>
     <div class="command-info">
       <div class="help">Prints attribute.</div>

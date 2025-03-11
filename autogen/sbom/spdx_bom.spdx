@@ -13,839 +13,872 @@ DocumentNamespace: https://silabs.com
 
 ## Creation Information
 Creator: Organization: Silicon Laboratories, Inc.
-Created: 2025-01-08T14:10:20.612183Z
+Created: 2025-03-11T14:16:14.064440Z
 ## Relationships
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Simplicity SDK Suite
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-cli
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-iostream_stdio
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-native_host
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_address_table
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_basic
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_coex_cli
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_color_control_server
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_concentrator
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_core_cli
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_counters
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_debug_print
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_ezmode_commissioning
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_ezsp
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_ezsp_cpc
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_file_descriptor_dispatch
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_green_power_client_cli
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_ias_zone_client
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_identify
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_identify_feedback
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_level_control
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_manufacturing_library_cli
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_ncp_configuration
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_network_creator
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_network_creator_security
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_network_steering
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_on_off
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_ota_common
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_ota_server
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_ota_server_policy
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_ota_storage_common
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_ota_storage_posix_filesystem
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_poll_control_client
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_reporting
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_scan_dispatch
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_simple_metering_client
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_stack_diagnostics
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_test_harness
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_time_server
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_trust_center_nwk_key_update_broadcast
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_trust_center_nwk_key_update_periodic
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_trust_center_nwk_key_update_unicast
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_update_tc_link_key
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_zcl_cli
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_device_config
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-byte_utilities
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-sl_system_process_action
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-printf
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-sl_assert
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_zcl_framework_core
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-toolchain_gcc
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-component_catalog
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-cli_core
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-slist
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_gateway
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_host_unix_printf
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-linux
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_host_unix_library
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_cluster_service
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-event_handler
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-toolchain_gcc_standard
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-iostream
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-sl_core
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_system_common_app_framework
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-silabs_core_event_queue
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_cli
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_host_framework_common
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-cmsis_core
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-enum
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-emlib_core
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-toolchain_variant_host
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-cli_threaded_host
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-linux_arch_64
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-sl_string
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-sl_system_init
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_signature_decode
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_security_manager_host
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-code_classification
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-sl_common
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-endianness
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-status
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_af_support
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_green_power_server_cli
-Relationship: SPDXRef-simplicity_sdk-2024.12.0 CONTAINS SPDXRef-simplicity_sdk-2024.12.0-zigbee_green_power_translation_table_cli
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-cli
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-iostream_stdio
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-native_host
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_address_table
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_af_support
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_basic
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_coex_cli
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_color_control_server
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_concentrator
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_core_cli
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_counters
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_debug_print
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_ezmode_commissioning
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_ezsp
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_ezsp_cpc
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_file_descriptor_dispatch
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_green_power_client_cli
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_green_power_server_cli
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_green_power_translation_table_cli
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_ias_zone_client
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_identify
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_identify_feedback
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_level_control
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_manufacturing_library_cli
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_ncp_configuration
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_network_creator
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_network_creator_security
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_network_steering
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_on_off
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_ota_common
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_ota_server
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_ota_server_policy
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_ota_storage_common
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_ota_storage_posix_filesystem
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_poll_control_client
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_reporting
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_scan_dispatch
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_simple_metering_client
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_stack_diagnostics
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_test_harness
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_time_server
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_trust_center_nwk_key_update_broadcast
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_trust_center_nwk_key_update_periodic
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_trust_center_nwk_key_update_unicast
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_update_tc_link_key
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_zcl_cli
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_device_config
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-byte_utilities
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-sl_system_process_action
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-printf
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-sl_assert
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_zcl_framework_core
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-toolchain_gcc
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-component_catalog
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-cli_core
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-slist
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_gateway
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_host_unix_printf
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-linux
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_host_unix_library
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_cluster_service
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-event_handler
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-toolchain_gcc_standard
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-iostream
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-sl_core
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_system_common_app_framework
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-silabs_core_event_queue
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_cli
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_host_framework_common
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-cmsis_core
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-enum
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-emlib_core
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-toolchain_variant_host
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-cli_threaded_host
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-linux_arch_64
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-sl_string
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-sl_system_init
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_signature_decode
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-zigbee_security_manager_host
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-code_classification
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-sl_common
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-endianness
+Relationship: SPDXRef-simplicity_sdk-2024.12.1 CONTAINS SPDXRef-simplicity_sdk-2024.12.1-status
 
 ## Package Information
 PackageName: CLI Instance(s)
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-cli
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-cli
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-cli CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-cli CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: IO Stream: STDIO
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-iostream_stdio
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-iostream_stdio
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-iostream_stdio CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-iostream_stdio CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Native Host Device
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-native_host
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-native_host
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-native_host CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-native_host CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Address Table
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_address_table
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_address_table
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_address_table CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_address_table CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
+
+## Package Information
+PackageName: Application Framework Support Component
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_af_support
+PackageVersion: 2024.12.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_af_support CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Basic Server Cluster
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_basic
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_basic
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_basic CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_basic CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Zigbee Utility, Coexistence CLI
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_coex_cli
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_coex_cli
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_coex_cli CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_coex_cli CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Color Control Cluster Server
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_color_control_server
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_color_control_server
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_color_control_server CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_color_control_server CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Concentrator Support
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_concentrator
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_concentrator
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_concentrator CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_concentrator CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Zigbee Core CLI
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_core_cli
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_core_cli
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_core_cli CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_core_cli CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Counters
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_counters
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_counters
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_counters CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_counters CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Debug Print
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_debug_print
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_debug_print
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_debug_print CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_debug_print CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: EZ-Mode Commissioning
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_ezmode_commissioning
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_ezmode_commissioning
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_ezmode_commissioning CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_ezmode_commissioning CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: EZSP Common
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_ezsp
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_ezsp
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA AND Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_ezsp CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_ezsp CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: EZSP CPC
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_ezsp_cpc
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_ezsp_cpc
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_ezsp_cpc CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_ezsp_cpc CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: File Descriptor Dispatch
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_file_descriptor_dispatch
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_file_descriptor_dispatch
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_file_descriptor_dispatch CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_file_descriptor_dispatch CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Green Power Client CLI
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_green_power_client_cli
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_green_power_client_cli
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_green_power_client_cli CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_green_power_client_cli CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
+
+## Package Information
+PackageName: Green Power Server CLI
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_green_power_server_cli
+PackageVersion: 2024.12.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_green_power_server_cli CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
+
+## Package Information
+PackageName: Green Power Translation Table CLI
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_green_power_translation_table_cli
+PackageVersion: 2024.12.1
+PrimaryPackagePurpose: LIBRARY
+PackageDownloadLocation: NOASSERTION
+PackageSupplier: Organization: Silicon Laboratories, Inc.
+PackageLicenseConcluded: MSLA
+## Relationships
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_green_power_translation_table_cli CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: IAS Zone Client
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_ias_zone_client
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_ias_zone_client
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_ias_zone_client CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_ias_zone_client CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Identify Cluster
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_identify
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_identify
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_identify CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_identify CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Identify Feedback
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_identify_feedback
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_identify_feedback
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_identify_feedback CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_identify_feedback CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Level Control Server Cluster
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_level_control
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_level_control
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_level_control CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_level_control CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Manufacturing Library CLI
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_manufacturing_library_cli
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_manufacturing_library_cli
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_manufacturing_library_cli CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_manufacturing_library_cli CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: NCP Configuration
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_ncp_configuration
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_ncp_configuration
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_ncp_configuration CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_ncp_configuration CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Network Creator
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_network_creator
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_network_creator
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_network_creator CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_network_creator CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Network Creator Security
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_network_creator_security
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_network_creator_security
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_network_creator_security CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_network_creator_security CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Network Steering
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_network_steering
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_network_steering
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_network_steering CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_network_steering CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: On/Off Server Cluster
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_on_off
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_on_off
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_on_off CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_on_off CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: OTA Bootload Cluster Common Code
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_ota_common
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_ota_common
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_ota_common CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_ota_common CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: OTA Bootload Cluster Server
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_ota_server
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_ota_server
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_ota_server CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_ota_server CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: OTA Bootload Cluster Server Policy
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_ota_server_policy
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_ota_server_policy
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_ota_server_policy CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_ota_server_policy CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: OTA Bootload Cluster Storage Common Code
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_ota_storage_common
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_ota_storage_common
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_ota_storage_common CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_ota_storage_common CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: OTA POSIX Filesystem Storage Module
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_ota_storage_posix_filesystem
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_ota_storage_posix_filesystem
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_ota_storage_posix_filesystem CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_ota_storage_posix_filesystem CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Poll Control Client Cluster
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_poll_control_client
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_poll_control_client
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_poll_control_client CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_poll_control_client CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Reporting
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_reporting
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_reporting
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_reporting CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_reporting CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Scan Dispatch
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_scan_dispatch
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_scan_dispatch
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_scan_dispatch CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_scan_dispatch CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Simple Metering Client
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_simple_metering_client
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_simple_metering_client
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_simple_metering_client CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_simple_metering_client CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Stack Diagnostics
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_stack_diagnostics
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_stack_diagnostics
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_stack_diagnostics CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_stack_diagnostics CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Test Harness
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_test_harness
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_test_harness
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_test_harness CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_test_harness CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Time Server Cluster
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_time_server
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_time_server
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_time_server CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_time_server CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Trust Center Network Key Update Broadcast
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_trust_center_nwk_key_update_broadcast
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_trust_center_nwk_key_update_broadcast
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_trust_center_nwk_key_update_broadcast CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_trust_center_nwk_key_update_broadcast CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Trust Center Network Key Update Periodic
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_trust_center_nwk_key_update_periodic
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_trust_center_nwk_key_update_periodic
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_trust_center_nwk_key_update_periodic CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_trust_center_nwk_key_update_periodic CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Trust Center Network Key Update Unicast
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_trust_center_nwk_key_update_unicast
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_trust_center_nwk_key_update_unicast
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_trust_center_nwk_key_update_unicast CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_trust_center_nwk_key_update_unicast CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Update TC Link Key
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_update_tc_link_key
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_update_tc_link_key
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_update_tc_link_key CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_update_tc_link_key CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Zigbee ZCL CLI
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_zcl_cli
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_zcl_cli
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_zcl_cli CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_zcl_cli CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Zigbee Device Config
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_device_config
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_device_config
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_device_config CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_device_config CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Byte Utilities
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-byte_utilities
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-byte_utilities
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-byte_utilities CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-byte_utilities CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: System Process Action
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-sl_system_process_action
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-sl_system_process_action
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-sl_system_process_action CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-sl_system_process_action CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Tiny printf
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-printf
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-printf
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MIT
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-printf CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-printf CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Assert Functions
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-sl_assert
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-sl_assert
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-sl_assert CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-sl_assert CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: ZCL Framework Core
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_zcl_framework_core
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_zcl_framework_core
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_zcl_framework_core CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_zcl_framework_core CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: GCC Toolchain
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-toolchain_gcc
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-toolchain_gcc
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-toolchain_gcc CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-toolchain_gcc CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Component Catalog
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-component_catalog
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-component_catalog
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-component_catalog CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-component_catalog CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: CLI Global Configuration
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-cli_core
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-cli_core
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-cli_core CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-cli_core CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Single Link List
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-slist
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-slist
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-slist CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-slist CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Gateway Support
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_gateway
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_gateway
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_gateway CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_gateway CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Unix Printf
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_host_unix_printf
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_host_unix_printf
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_host_unix_printf CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_host_unix_printf CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Linux OS
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-linux
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-linux
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-linux CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-linux CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Unix Library
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_host_unix_library
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_host_unix_library
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA AND Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_host_unix_library CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_host_unix_library CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Zigbee Cluster Service
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_cluster_service
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_cluster_service
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_cluster_service CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_cluster_service CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Event Handler
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-event_handler
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-event_handler
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-event_handler CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-event_handler CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: GCC Toolchain Standard Linker
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-toolchain_gcc_standard
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-toolchain_gcc_standard
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-toolchain_gcc_standard CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-toolchain_gcc_standard CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: IO Stream
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-iostream
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-iostream
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-iostream CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-iostream CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: core
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-sl_core
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-sl_core
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-sl_core CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-sl_core CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Zigbee System Common, Application Framework Task
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_system_common_app_framework
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_system_common_app_framework
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_system_common_app_framework CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_system_common_app_framework CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Ember queue-based event system
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-silabs_core_event_queue
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-silabs_core_event_queue
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-silabs_core_event_queue CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-silabs_core_event_queue CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Zigbee CLI
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_cli
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_cli
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_cli CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_cli CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Host Framework Common
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_host_framework_common
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_host_framework_common
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_host_framework_common CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_host_framework_common CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: CMSIS-Core
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-cmsis_core
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-cmsis_core
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Apache 2.0
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-cmsis_core CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-cmsis_core ANCESTOR_OF SPDXRef-cmsis_core-5.8.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-cmsis_core CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-cmsis_core ANCESTOR_OF SPDXRef-cmsis_core-5.8.0
 
 ## Package Information
 PackageName: CMSIS_5
@@ -859,180 +892,147 @@ PackageHomePage: https://github.com/ARM-software/CMSIS_5
 ExternalRef: PACKAGE-MANAGER purl pkg:github/ARM-software/CMSIS_5@5.8.0
 PackageComment: <text>The CMSIS is a set of tools, APIs, frameworks, and work flows</text>
 ## Relationships
-Relationship: SPDXRef-cmsis_core-5.8.0 DESCENDANT_OF SPDXRef-simplicity_sdk-2024.12.0-cmsis_core
+Relationship: SPDXRef-cmsis_core-5.8.0 DESCENDANT_OF SPDXRef-simplicity_sdk-2024.12.1-cmsis_core
 
 ## Package Information
 PackageName: Enumerations
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-enum
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-enum
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-enum CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-enum CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: CORE
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-emlib_core
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-emlib_core
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-emlib_core CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-emlib_core CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Toolchain for host
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-toolchain_variant_host
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-toolchain_variant_host
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-toolchain_variant_host CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-toolchain_variant_host CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: CLI for Hosts
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-cli_threaded_host
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-cli_threaded_host
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-cli_threaded_host CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-cli_threaded_host CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Linux OS (64 bit)
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-linux_arch_64
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-linux_arch_64
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-linux_arch_64 CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-linux_arch_64 CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: String Functions
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-sl_string
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-sl_string
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-sl_string CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-sl_string CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: System Init
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-sl_system_init
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-sl_system_init
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-sl_system_init CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-sl_system_init CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Zigbee Signature Decode
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_signature_decode
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_signature_decode
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_signature_decode CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_signature_decode CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Zigbee Security Manager (Host)
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_security_manager_host
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-zigbee_security_manager_host
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: MSLA
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_security_manager_host CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-zigbee_security_manager_host CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Code Classification
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-code_classification
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-code_classification
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-code_classification CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-code_classification CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Common Functions
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-sl_common
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-sl_common
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-sl_common CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-sl_common CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Endianness Operations Library
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-endianness
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-endianness
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-endianness CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-endianness CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1
 
 ## Package Information
 PackageName: Status Codes Definitions
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-status
-PackageVersion: 2024.12.0
+SPDXID: SPDXRef-simplicity_sdk-2024.12.1-status
+PackageVersion: 2024.12.1
 PrimaryPackagePurpose: LIBRARY
 PackageDownloadLocation: NOASSERTION
 PackageSupplier: Organization: Silicon Laboratories, Inc.
 PackageLicenseConcluded: Zlib
 ## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-status CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
-
-## Package Information
-PackageName: Application Framework Support Component
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_af_support
-PackageVersion: 2024.12.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_af_support CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
-
-## Package Information
-PackageName: Green Power Server CLI
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_green_power_server_cli
-PackageVersion: 2024.12.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_green_power_server_cli CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
-
-## Package Information
-PackageName: Green Power Translation Table CLI
-SPDXID: SPDXRef-simplicity_sdk-2024.12.0-zigbee_green_power_translation_table_cli
-PackageVersion: 2024.12.0
-PrimaryPackagePurpose: LIBRARY
-PackageDownloadLocation: NOASSERTION
-PackageSupplier: Organization: Silicon Laboratories, Inc.
-PackageLicenseConcluded: MSLA
-## Relationships
-Relationship: SPDXRef-simplicity_sdk-2024.12.0-zigbee_green_power_translation_table_cli CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.0
+Relationship: SPDXRef-simplicity_sdk-2024.12.1-status CONTAINED_BY SPDXRef-simplicity_sdk-2024.12.1

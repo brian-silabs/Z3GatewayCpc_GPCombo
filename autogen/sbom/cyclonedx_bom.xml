@@ -10,7 +10,7 @@ referenced in this SBOM.)
 -->
 <bom xmlns="http://cyclonedx.org/schema/bom/1.6" version="1">
   <metadata>
-    <timestamp>2025-01-08T14:10:20.612183Z</timestamp>
+    <timestamp>2025-03-11T14:16:14.064440Z</timestamp>
     <authors>
       <author>
         <name>Silicon Laboratories, Inc.</name>
@@ -18,16 +18,16 @@ referenced in this SBOM.)
     </authors>
   </metadata>
   <components>
-    <component bom-ref="simplicity_sdk:2024.12.0" type="library">
+    <component bom-ref="simplicity_sdk:2024.12.1" type="library">
       <supplier>
         <name>Silicon Laboratories, Inc.</name>
       </supplier>
       <name>Simplicity SDK Suite</name>
-      <version>2024.12.0</version>
+      <version>2024.12.1</version>
       <components>
-        <component bom-ref="simplicity_sdk:2024.12.0:cli" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:cli" type="library">
           <name>CLI Instance(s)</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -35,9 +35,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:iostream_stdio" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:iostream_stdio" type="library">
           <name>IO Stream: STDIO</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -45,9 +45,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:native_host" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:native_host" type="library">
           <name>Native Host Device</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -55,9 +55,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_address_table" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_address_table" type="library">
           <name>Address Table</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -65,9 +65,19 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_basic" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_af_support" type="library">
+          <name>Application Framework Support Component</name>
+          <version>2024.12.1</version>
+	      <supplier>
+	        <name>Silicon Laboratories, Inc.</name>
+	      </supplier>
+          <licenses>
+            <expression>MSLA</expression>
+          </licenses>
+        </component>
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_basic" type="library">
           <name>Basic Server Cluster</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -75,9 +85,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_coex_cli" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_coex_cli" type="library">
           <name>Zigbee Utility, Coexistence CLI</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -85,9 +95,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_color_control_server" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_color_control_server" type="library">
           <name>Color Control Cluster Server</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -95,9 +105,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_concentrator" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_concentrator" type="library">
           <name>Concentrator Support</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -105,9 +115,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_core_cli" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_core_cli" type="library">
           <name>Zigbee Core CLI</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -115,9 +125,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_counters" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_counters" type="library">
           <name>Counters</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -125,9 +135,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_debug_print" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_debug_print" type="library">
           <name>Debug Print</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -135,9 +145,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_ezmode_commissioning" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_ezmode_commissioning" type="library">
           <name>EZ-Mode Commissioning</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -145,9 +155,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_ezsp" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_ezsp" type="library">
           <name>EZSP Common</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -155,9 +165,9 @@ referenced in this SBOM.)
             <expression>MSLA AND Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_ezsp_cpc" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_ezsp_cpc" type="library">
           <name>EZSP CPC</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -165,9 +175,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_file_descriptor_dispatch" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_file_descriptor_dispatch" type="library">
           <name>File Descriptor Dispatch</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -175,9 +185,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_green_power_client_cli" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_green_power_client_cli" type="library">
           <name>Green Power Client CLI</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -185,9 +195,29 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_ias_zone_client" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_green_power_server_cli" type="library">
+          <name>Green Power Server CLI</name>
+          <version>2024.12.1</version>
+	      <supplier>
+	        <name>Silicon Laboratories, Inc.</name>
+	      </supplier>
+          <licenses>
+            <expression>MSLA</expression>
+          </licenses>
+        </component>
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_green_power_translation_table_cli" type="library">
+          <name>Green Power Translation Table CLI</name>
+          <version>2024.12.1</version>
+	      <supplier>
+	        <name>Silicon Laboratories, Inc.</name>
+	      </supplier>
+          <licenses>
+            <expression>MSLA</expression>
+          </licenses>
+        </component>
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_ias_zone_client" type="library">
           <name>IAS Zone Client</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -195,9 +225,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_identify" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_identify" type="library">
           <name>Identify Cluster</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -205,9 +235,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_identify_feedback" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_identify_feedback" type="library">
           <name>Identify Feedback</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -215,9 +245,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_level_control" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_level_control" type="library">
           <name>Level Control Server Cluster</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -225,9 +255,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_manufacturing_library_cli" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_manufacturing_library_cli" type="library">
           <name>Manufacturing Library CLI</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -235,9 +265,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_ncp_configuration" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_ncp_configuration" type="library">
           <name>NCP Configuration</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -245,9 +275,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_network_creator" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_network_creator" type="library">
           <name>Network Creator</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -255,9 +285,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_network_creator_security" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_network_creator_security" type="library">
           <name>Network Creator Security</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -265,9 +295,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_network_steering" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_network_steering" type="library">
           <name>Network Steering</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -275,9 +305,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_on_off" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_on_off" type="library">
           <name>On/Off Server Cluster</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -285,9 +315,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_ota_common" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_ota_common" type="library">
           <name>OTA Bootload Cluster Common Code</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -295,9 +325,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_ota_server" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_ota_server" type="library">
           <name>OTA Bootload Cluster Server</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -305,9 +335,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_ota_server_policy" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_ota_server_policy" type="library">
           <name>OTA Bootload Cluster Server Policy</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -315,9 +345,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_ota_storage_common" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_ota_storage_common" type="library">
           <name>OTA Bootload Cluster Storage Common Code</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -325,9 +355,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_ota_storage_posix_filesystem" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_ota_storage_posix_filesystem" type="library">
           <name>OTA POSIX Filesystem Storage Module</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -335,9 +365,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_poll_control_client" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_poll_control_client" type="library">
           <name>Poll Control Client Cluster</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -345,9 +375,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_reporting" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_reporting" type="library">
           <name>Reporting</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -355,9 +385,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_scan_dispatch" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_scan_dispatch" type="library">
           <name>Scan Dispatch</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -365,9 +395,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_simple_metering_client" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_simple_metering_client" type="library">
           <name>Simple Metering Client</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -375,9 +405,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_stack_diagnostics" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_stack_diagnostics" type="library">
           <name>Stack Diagnostics</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -385,9 +415,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_test_harness" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_test_harness" type="library">
           <name>Test Harness</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -395,9 +425,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_time_server" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_time_server" type="library">
           <name>Time Server Cluster</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -405,9 +435,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_trust_center_nwk_key_update_broadcast" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_trust_center_nwk_key_update_broadcast" type="library">
           <name>Trust Center Network Key Update Broadcast</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -415,9 +445,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_trust_center_nwk_key_update_periodic" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_trust_center_nwk_key_update_periodic" type="library">
           <name>Trust Center Network Key Update Periodic</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -425,9 +455,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_trust_center_nwk_key_update_unicast" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_trust_center_nwk_key_update_unicast" type="library">
           <name>Trust Center Network Key Update Unicast</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -435,9 +465,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_update_tc_link_key" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_update_tc_link_key" type="library">
           <name>Update TC Link Key</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -445,9 +475,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_zcl_cli" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_zcl_cli" type="library">
           <name>Zigbee ZCL CLI</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -455,9 +485,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_device_config" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_device_config" type="library">
           <name>Zigbee Device Config</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -465,9 +495,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:byte_utilities" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:byte_utilities" type="library">
           <name>Byte Utilities</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -475,9 +505,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:sl_system_process_action" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:sl_system_process_action" type="library">
           <name>System Process Action</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -485,9 +515,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:printf" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:printf" type="library">
           <name>Tiny printf</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -495,9 +525,9 @@ referenced in this SBOM.)
             <expression>MIT</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:sl_assert" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:sl_assert" type="library">
           <name>Assert Functions</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -505,9 +535,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_zcl_framework_core" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_zcl_framework_core" type="library">
           <name>ZCL Framework Core</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -515,9 +545,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:toolchain_gcc" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:toolchain_gcc" type="library">
           <name>GCC Toolchain</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -525,9 +555,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:component_catalog" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:component_catalog" type="library">
           <name>Component Catalog</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -535,9 +565,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:cli_core" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:cli_core" type="library">
           <name>CLI Global Configuration</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -545,9 +575,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:slist" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:slist" type="library">
           <name>Single Link List</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -555,9 +585,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_gateway" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_gateway" type="library">
           <name>Gateway Support</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -565,9 +595,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_host_unix_printf" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_host_unix_printf" type="library">
           <name>Unix Printf</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -575,9 +605,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:linux" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:linux" type="library">
           <name>Linux OS</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -585,9 +615,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_host_unix_library" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_host_unix_library" type="library">
           <name>Unix Library</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -595,9 +625,9 @@ referenced in this SBOM.)
             <expression>MSLA AND Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_cluster_service" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_cluster_service" type="library">
           <name>Zigbee Cluster Service</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -605,9 +635,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:event_handler" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:event_handler" type="library">
           <name>Event Handler</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -615,9 +645,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:toolchain_gcc_standard" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:toolchain_gcc_standard" type="library">
           <name>GCC Toolchain Standard Linker</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -625,9 +655,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:iostream" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:iostream" type="library">
           <name>IO Stream</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -635,9 +665,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:sl_core" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:sl_core" type="library">
           <name>core</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -645,9 +675,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_system_common_app_framework" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_system_common_app_framework" type="library">
           <name>Zigbee System Common, Application Framework Task</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -655,9 +685,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:silabs_core_event_queue" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:silabs_core_event_queue" type="library">
           <name>Ember queue-based event system</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -665,9 +695,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_cli" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_cli" type="library">
           <name>Zigbee CLI</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -675,9 +705,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_host_framework_common" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_host_framework_common" type="library">
           <name>Host Framework Common</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -685,9 +715,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:cmsis_core" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:cmsis_core" type="library">
           <name>CMSIS-Core</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -715,9 +745,9 @@ referenced in this SBOM.)
             </ancestors>
           </pedigree>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:enum" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:enum" type="library">
           <name>Enumerations</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -725,9 +755,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:emlib_core" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:emlib_core" type="library">
           <name>CORE</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -735,9 +765,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:toolchain_variant_host" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:toolchain_variant_host" type="library">
           <name>Toolchain for host</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -745,9 +775,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:cli_threaded_host" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:cli_threaded_host" type="library">
           <name>CLI for Hosts</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -755,9 +785,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:linux_arch_64" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:linux_arch_64" type="library">
           <name>Linux OS (64 bit)</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -765,9 +795,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:sl_string" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:sl_string" type="library">
           <name>String Functions</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -775,9 +805,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:sl_system_init" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:sl_system_init" type="library">
           <name>System Init</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -785,9 +815,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_signature_decode" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_signature_decode" type="library">
           <name>Zigbee Signature Decode</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -795,9 +825,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_security_manager_host" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:zigbee_security_manager_host" type="library">
           <name>Zigbee Security Manager (Host)</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -805,9 +835,9 @@ referenced in this SBOM.)
             <expression>MSLA</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:code_classification" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:code_classification" type="library">
           <name>Code Classification</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -815,9 +845,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:sl_common" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:sl_common" type="library">
           <name>Common Functions</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -825,9 +855,9 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:endianness" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:endianness" type="library">
           <name>Endianness Operations Library</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
@@ -835,44 +865,14 @@ referenced in this SBOM.)
             <expression>Zlib</expression>
           </licenses>
         </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:status" type="library">
+        <component bom-ref="simplicity_sdk:2024.12.1:status" type="library">
           <name>Status Codes Definitions</name>
-          <version>2024.12.0</version>
+          <version>2024.12.1</version>
 	      <supplier>
 	        <name>Silicon Laboratories, Inc.</name>
 	      </supplier>
           <licenses>
             <expression>Zlib</expression>
-          </licenses>
-        </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_af_support" type="library">
-          <name>Application Framework Support Component</name>
-          <version>2024.12.0</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>MSLA</expression>
-          </licenses>
-        </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_green_power_server_cli" type="library">
-          <name>Green Power Server CLI</name>
-          <version>2024.12.0</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>MSLA</expression>
-          </licenses>
-        </component>
-        <component bom-ref="simplicity_sdk:2024.12.0:zigbee_green_power_translation_table_cli" type="library">
-          <name>Green Power Translation Table CLI</name>
-          <version>2024.12.0</version>
-	      <supplier>
-	        <name>Silicon Laboratories, Inc.</name>
-	      </supplier>
-          <licenses>
-            <expression>MSLA</expression>
           </licenses>
         </component>
       </components>
